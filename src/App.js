@@ -25,7 +25,7 @@ export default class App extends Component {
         let lon = this.state.longitude;
         Axios({
           method: "GET",
-          url: `http://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=&appid=9d0a8871b2e2bb813b32d2b39c3042b4`,
+          url: `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=&appid=9d0a8871b2e2bb813b32d2b39c3042b4`,
           headers: {
             "content-type": "application/json",
           },
@@ -68,7 +68,7 @@ export default class App extends Component {
     let city = this.state.city;
     Axios({
       method: "GET",
-      url: `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=9d0a8871b2e2bb813b32d2b39c3042b4`,
+      url: `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=9d0a8871b2e2bb813b32d2b39c3042b4`,
       headers: {
         "content-type": "application/json",
       },
@@ -83,7 +83,7 @@ export default class App extends Component {
         let lon = this.state.longitude;
         Axios({
           method: "GET",
-          url: `http://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=&appid=9d0a8871b2e2bb813b32d2b39c3042b4`,
+          url: `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=&appid=9d0a8871b2e2bb813b32d2b39c3042b4`,
           headers: {
             "content-type": "application/json",
           },
