@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+weather App [Live Link](https://peaceful-plains-67252.herokuapp.com/).
 
 ## Available Scripts
 
