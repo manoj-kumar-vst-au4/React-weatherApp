@@ -109,7 +109,7 @@ export default class App extends Component {
   render() {
     
     return (
-      <div className="container d-flex border border-light py-1 flex-column my-2" style={{"borderRadius":"20px"}}>
+      <div className="container d-flex flex-column my-2" style={{"borderRadius":"20px"}}>
         <SearchBar cityChange={this.cityChange} 
         city={this.state.city}
         />
@@ -119,6 +119,7 @@ export default class App extends Component {
         <CurrentForcast
         currentData={this.state.currentData}
         hourlyData={this.state.hourlyData}
+        dailyData={this.state.dailyData}
         />
         
       </div>
